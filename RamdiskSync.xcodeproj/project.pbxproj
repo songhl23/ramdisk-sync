@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C11F2AF0D573A93009DDBE5 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C11F2AE0D573A93009DDBE5 /* PreferencePanes.framework */; };
+		6C11F2E80D573E8B009DDBE5 /* MainPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C11F2B80D573B4A009DDBE5 /* MainPane.m */; };
+		6C3DC4790D6D5D1D008F86A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC4750D6D5D1D008F86A8 /* Localizable.strings */; };
+		6C3DC47A0D6D5D1D008F86A8 /* MainPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC4770D6D5D1D008F86A8 /* MainPane.nib */; };
+		6C3DC4800D6D5D2E008F86A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC47C0D6D5D2E008F86A8 /* InfoPlist.strings */; };
+		6C3DC4810D6D5D2E008F86A8 /* MainPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC47E0D6D5D2E008F86A8 /* MainPane.nib */; };
+		6C3DC4850D6D5DF6008F86A8 /* Localizable.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3DC4750D6D5D1D008F86A8 /* Localizable.strings */; };
+		6C3DC4A50D6D6642008F86A8 /* MainPane.nib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3DC4770D6D5D1D008F86A8 /* MainPane.nib */; };
+		6C3DC4A90D6D6657008F86A8 /* MainPane.nib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C3DC47E0D6D5D2E008F86A8 /* MainPane.nib */; };
+		6C7117180D5F491400B2215D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C71170F0D5F491400B2215D /* InfoPlist.strings */; };
+		6C7117190D5F491400B2215D /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117110D5F491400B2215D /* MainMenu.nib */; };
+		6C71171A0D5F491400B2215D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117130D5F491400B2215D /* Info.plist */; };
+		6C71171B0D5F491400B2215D /* ObserverController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117140D5F491400B2215D /* ObserverController.rb */; };
+		6C71171C0D5F491400B2215D /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117150D5F491400B2215D /* Rakefile */; };
+		6C71171D0D5F491400B2215D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7117160D5F491400B2215D /* main.m */; };
+		6C71171E0D5F491400B2215D /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117170D5F491400B2215D /* rb_main.rb */; };
+		6C7117290D5F49A900B2215D /* Preferences.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C7117280D5F49A900B2215D /* Preferences.rb */; };
+		6C88849D0D5AEDCE005B480A /* mkramdisk.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C88845F0D5AE7EA005B480A /* mkramdisk.sh */; };
+		6C8885AE0D5BEC2C005B480A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		6CAF87000D5BFE1E00A1C5C5 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAF86FF0D5BFE1E00A1C5C5 /* RubyCocoa.framework */; };
+		6CCE80630D62C50C0063C193 /* mkramdisk.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C88845F0D5AE7EA005B480A /* mkramdisk.sh */; };
+		6CCE80D20D62D5650063C193 /* MountObserver.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C8885950D5BEB3A005B480A /* MountObserver.app */; };
+		6CFA4B100D582B13004E2FF6 /* TargetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA4B0F0D582B13004E2FF6 /* TargetItem.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C3DC4880D6D5DFE008F86A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				6C3DC4A90D6D6657008F86A8 /* MainPane.nib in CopyFiles */,
+				6C3DC4A50D6D6642008F86A8 /* MainPane.nib in CopyFiles */,
+				6C3DC4850D6D5DF6008F86A8 /* Localizable.strings in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C88849C0D5AED98005B480A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				6CCE80D20D62D5650063C193 /* MountObserver.app in CopyFiles */,
+				6C88849D0D5AEDCE005B480A /* mkramdisk.sh in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCE80840D62C52D0063C193 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				6CCE80630D62C50C0063C193 /* mkramdisk.sh in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* RamdiskSync_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RamdiskSync_Prefix.pch; sourceTree = "<group>"; };
+		6C11F2AE0D573A93009DDBE5 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		6C11F2B70D573B4A009DDBE5 /* MainPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPane.h; sourceTree = "<group>"; };
+		6C11F2B80D573B4A009DDBE5 /* MainPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPane.m; sourceTree = "<group>"; };
+		6C3DC4760D6D5D1D008F86A8 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = Localizable.strings; sourceTree = "<group>"; };
+		6C3DC4780D6D5D1D008F86A8 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = MainPane.nib; sourceTree = "<group>"; };
+		6C3DC47D0D6D5D2E008F86A8 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6C3DC47F0D6D5D2E008F86A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainPane.nib; sourceTree = "<group>"; };
+		6C7117100D5F491400B2215D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6C7117120D5F491400B2215D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		6C7117130D5F491400B2215D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Observer/Info.plist; sourceTree = "<group>"; };
+		6C7117140D5F491400B2215D /* ObserverController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ObserverController.rb; path = Observer/ObserverController.rb; sourceTree = "<group>"; };
+		6C7117150D5F491400B2215D /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Rakefile; path = Observer/Rakefile; sourceTree = "<group>"; };
+		6C7117160D5F491400B2215D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Observer/main.m; sourceTree = "<group>"; };
+		6C7117170D5F491400B2215D /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = rb_main.rb; path = Observer/rb_main.rb; sourceTree = "<group>"; };
+		6C7117280D5F49A900B2215D /* Preferences.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Preferences.rb; path = Observer/Preferences.rb; sourceTree = "<group>"; };
+		6C88845F0D5AE7EA005B480A /* mkramdisk.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mkramdisk.sh; sourceTree = "<group>"; };
+		6C8885950D5BEB3A005B480A /* MountObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MountObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8885970D5BEB3A005B480A /* MountObserver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MountObserver-Info.plist"; sourceTree = "<group>"; };
+		6CAF86FF0D5BFE1E00A1C5C5 /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
+		6CFA4B0E0D582B13004E2FF6 /* TargetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetItem.h; sourceTree = "<group>"; };
+		6CFA4B0F0D582B13004E2FF6 /* TargetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetItem.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* RamdiskSync.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdiskSync.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C8885930D5BEB3A005B480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8885AE0D5BEC2C005B480A /* Cocoa.framework in Frameworks */,
+				6CAF87000D5BFE1E00A1C5C5 /* RubyCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				6C11F2AF0D573A93009DDBE5 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* RamdiskSync */ = {
+			isa = PBXGroup;
+			children = (
+				6C8885BD0D5BEC59005B480A /* prefPane */,
+				6C88859E0D5BEB6F005B480A /* Observer */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				6C8885970D5BEB3A005B480A /* MountObserver-Info.plist */,
+			);
+			name = RamdiskSync;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF86FF0D5BFE1E00A1C5C5 /* RubyCocoa.framework */,
+				6C11F2AE0D573A93009DDBE5 /* PreferencePanes.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CFA4B0E0D582B13004E2FF6 /* TargetItem.h */,
+				6CFA4B0F0D582B13004E2FF6 /* TargetItem.m */,
+				6C11F2B70D573B4A009DDBE5 /* MainPane.h */,
+				6C11F2B80D573B4A009DDBE5 /* MainPane.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* RamdiskSync.prefPane */,
+				6C8885950D5BEB3A005B480A /* MountObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6C88845F0D5AE7EA005B480A /* mkramdisk.sh */,
+				32DBCF630370AF2F00C91783 /* RamdiskSync_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		6C3DC4740D6D5D1D008F86A8 /* zh_TW.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6C3DC4770D6D5D1D008F86A8 /* MainPane.nib */,
+				6C3DC4750D6D5D1D008F86A8 /* Localizable.strings */,
+			);
+			path = zh_TW.lproj;
+			sourceTree = "<group>";
+		};
+		6C3DC47B0D6D5D2E008F86A8 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6C3DC47C0D6D5D2E008F86A8 /* InfoPlist.strings */,
+				6C3DC47E0D6D5D2E008F86A8 /* MainPane.nib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		6C71170E0D5F491400B2215D /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6C71170F0D5F491400B2215D /* InfoPlist.strings */,
+				6C7117110D5F491400B2215D /* MainMenu.nib */,
+			);
+			name = English.lproj;
+			path = Observer/English.lproj;
+			sourceTree = "<group>";
+		};
+		6C88859E0D5BEB6F005B480A /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				6C71170E0D5F491400B2215D /* English.lproj */,
+				6C7117130D5F491400B2215D /* Info.plist */,
+				6C7117280D5F49A900B2215D /* Preferences.rb */,
+				6C7117140D5F491400B2215D /* ObserverController.rb */,
+				6C7117150D5F491400B2215D /* Rakefile */,
+				6C7117160D5F491400B2215D /* main.m */,
+				6C7117170D5F491400B2215D /* rb_main.rb */,
+			);
+			name = Observer;
+			sourceTree = "<group>";
+		};
+		6C8885BD0D5BEC59005B480A /* prefPane */ = {
+			isa = PBXGroup;
+			children = (
+				6C3DC47B0D6D5D2E008F86A8 /* English.lproj */,
+				6C3DC4740D6D5D1D008F86A8 /* zh_TW.lproj */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+			);
+			name = prefPane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C8885940D5BEB3A005B480A /* MountObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C88859A0D5BEB3A005B480A /* Build configuration list for PBXNativeTarget "MountObserver" */;
+			buildPhases = (
+				6C8885910D5BEB3A005B480A /* Resources */,
+				6C8885920D5BEB3A005B480A /* Sources */,
+				6C8885930D5BEB3A005B480A /* Frameworks */,
+				6CCE80840D62C52D0063C193 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MountObserver;
+			productName = MountObserver;
+			productReference = 6C8885950D5BEB3A005B480A /* MountObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D5B49AC048680CD000E48DA /* RamdiskSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "RamdiskSync" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				6C88849C0D5AED98005B480A /* CopyFiles */,
+				6C3DC4880D6D5DFE008F86A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamdiskSync;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = RamdiskSync;
+			productReference = 8D5B49B6048680CD000E48DA /* RamdiskSync.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "RamdiskSync" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_TW,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* RamdiskSync */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* RamdiskSync */,
+				6C8885940D5BEB3A005B480A /* MountObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C8885910D5BEB3A005B480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7117180D5F491400B2215D /* InfoPlist.strings in Resources */,
+				6C7117190D5F491400B2215D /* MainMenu.nib in Resources */,
+				6C71171A0D5F491400B2215D /* Info.plist in Resources */,
+				6C71171B0D5F491400B2215D /* ObserverController.rb in Resources */,
+				6C71171C0D5F491400B2215D /* Rakefile in Resources */,
+				6C71171E0D5F491400B2215D /* rb_main.rb in Resources */,
+				6C7117290D5F49A900B2215D /* Preferences.rb in Resources */,
+				6C3DC4790D6D5D1D008F86A8 /* Localizable.strings in Resources */,
+				6C3DC47A0D6D5D1D008F86A8 /* MainPane.nib in Resources */,
+				6C3DC4800D6D5D2E008F86A8 /* InfoPlist.strings in Resources */,
+				6C3DC4810D6D5D2E008F86A8 /* MainPane.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C8885920D5BEB3A005B480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C71171D0D5F491400B2215D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C11F2E80D573E8B009DDBE5 /* MainPane.m in Sources */,
+				6CFA4B100D582B13004E2FF6 /* TargetItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C3DC4750D6D5D1D008F86A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3DC4760D6D5D1D008F86A8 /* zh_TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6C3DC4770D6D5D1D008F86A8 /* MainPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3DC4780D6D5D1D008F86A8 /* zh_TW */,
+			);
+			name = MainPane.nib;
+			sourceTree = "<group>";
+		};
+		6C3DC47C0D6D5D2E008F86A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3DC47D0D6D5D2E008F86A8 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C3DC47E0D6D5D2E008F86A8 /* MainPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3DC47F0D6D5D2E008F86A8 /* English */,
+			);
+			name = MainPane.nib;
+			sourceTree = "<group>";
+		};
+		6C71170F0D5F491400B2215D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7117100D5F491400B2215D /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C7117110D5F491400B2215D /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7117120D5F491400B2215D /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RamdiskSync_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = RamdiskSync;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RamdiskSync_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = RamdiskSync;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		6C8885980D5BEB3A005B480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MountObserver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MountObserver;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		6C8885990D5BEB3A005B480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "MountObserver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MountObserver;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "RamdiskSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "RamdiskSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C88859A0D5BEB3A005B480A /* Build configuration list for PBXNativeTarget "MountObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8885980D5BEB3A005B480A /* Debug */,
+				6C8885990D5BEB3A005B480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
