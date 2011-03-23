@@ -10,8 +10,8 @@ require 'osx/cocoa'
 require 'FileUtils'
 require 'Preferences'
 
-$USER_NAME = ENV['USER']
-$USER_PREFERENCES_PATH = "/Users/#{$USER_NAME}/Library/Preferences"
+$HOME = ENV['HOME']
+$USER_PREFERENCES_PATH = "#{$HOME}/Library/Preferences"
 $APP_ID = 'tw.vgod.RamdiskSync'
 $LINK_LOG_FILE = '.lnPaths'
 
